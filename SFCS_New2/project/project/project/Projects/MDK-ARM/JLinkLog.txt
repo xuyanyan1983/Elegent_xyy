@@ -1,0 +1,66 @@
+T26768 000:007.668   SEGGER J-Link V7.22b Log File
+T26768 000:007.778   DLL Compiled: Jun 17 2021 17:22:49
+T26768 000:007.795   Logging started @ 2024-04-07 08:11
+T26768 000:007.808 - 7.815ms
+T26768 000:007.827 JLINK_SetWarnOutHandler(...)
+T26768 000:007.843 - 0.022ms
+T26768 000:007.857 JLINK_OpenEx(...)
+T26768 000:010.317   Firmware: J-Link OB-STM32F072-CortexM compiled Jan  7 2019 14:09:37
+T26768 000:010.790   Firmware: J-Link OB-STM32F072-CortexM compiled Jan  7 2019 14:09:37
+T26768 000:010.965   Decompressing FW timestamp took 117 us
+T26768 000:017.508   Hardware: V1.00
+T26768 000:017.565   S/N: 4294967295
+T26768 000:017.589   OEM: SEGGER
+T26768 000:017.608   Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash, RDDI
+T26768 000:019.182   TELNET listener socket opened on port 19021
+T26768 000:019.285   WEBSRV Starting webserver
+T26768 000:019.462   WEBSRV Webserver running on local port 19080
+T26768 000:019.484 - 11.634ms returns "O.K."
+T26768 000:019.505 JLINK_GetEmuCaps()
+T26768 000:019.519 - 0.020ms returns 0xB8EA5A33
+T26768 000:019.536 JLINK_TIF_GetAvailable(...)
+T26768 000:019.799 - 0.272ms
+T26768 000:019.819 JLINK_SetErrorOutHandler(...)
+T26768 000:019.832 - 0.022ms
+T26768 000:019.865 JLINK_ExecCommand("ProjectFile = "D:\my_job\1_CMproject\SFCS\project\Projects\MDK-ARM\JLinkSettings.ini"", ...). 
+T26768 000:029.556 - 9.712ms returns 0x00
+T26768 000:034.770 JLINK_ExecCommand("Device = STM32L431CCTx", ...). 
+T26768 000:039.075   Device "STM32L431CC" selected.
+T26768 000:040.398 - 5.602ms returns 0x00
+T26768 000:040.430 JLINK_GetHardwareVersion()
+T26768 000:040.443 - 0.018ms returns 10000
+T26768 000:040.456 JLINK_GetDLLVersion()
+T26768 000:040.468 - 0.018ms returns 72202
+T26768 000:040.482 JLINK_GetOEMString(...)
+T26768 000:040.496 JLINK_GetFirmwareString(...)
+T26768 000:040.513 - 0.022ms
+T26768 000:074.280 JLINK_GetDLLVersion()
+T26768 000:074.320 - 0.047ms returns 72202
+T26768 000:074.336 JLINK_GetCompileDateTime()
+T26768 000:074.349 - 0.020ms
+T26768 000:079.694 JLINK_GetFirmwareString(...)
+T26768 000:079.742 - 0.055ms
+T26768 000:084.338 JLINK_GetHardwareVersion()
+T26768 000:084.378 - 0.047ms returns 10000
+T26768 000:088.640 JLINK_GetSN()
+T26768 000:088.678 - 0.045ms returns -1
+T26768 000:088.693 JLINK_GetOEMString(...)
+T26768 000:107.817 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T26768 000:109.615 - 1.825ms returns 0x00
+T26768 000:109.654 JLINK_HasError()
+T26768 000:109.691 JLINK_SetSpeed(1000)
+T26768 000:109.857 - 0.181ms
+T26768 000:109.884 JLINK_GetId()
+T26768 000:234.382   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T26768 000:394.575   
+  ***** Error: 
+T26768 000:394.712   STM32: Connecting to CPU via connect under reset failed.
+T26768 000:638.434   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T26768 000:796.979   
+  ***** Error: 
+T26768 000:797.113   STM32: Connecting to CPU via connect under reset failed.
+T26768 000:848.055 - 738.263ms returns 0x00000000
+T26768 002:938.157 JLINK_Close()
+T26768 002:960.907 - 22.793ms
+T26768 002:960.958   
+T26768 002:960.973   Closed
