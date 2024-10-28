@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: xu xyy3524@126.com, yanyan, LIC=P6F5U-SP7TH-WKJB8-3M9KY-NQ06S-WZ0YD
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.36.0.0
+Toolchain Path:  D:\programfile\keil_MDK\MDK5.36\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+D:\my_job\1_CMproject\SFCS\project\project\Projects\MDK-ARM\STM32L431_SFCS.uvprojx
+Project File Date:  05/27/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\programfile\keil_MDK\MDK5.36\ARM\ARMCC\Bin'
+Build target 'SFCS'
+compiling adc.c...
+compiling main.c...
+..\..\User\node.h(103): warning:  #1295-D: Deprecated declaration queryCapDisposeFunc - give arg types
+  void queryCapDisposeFunc();
+..\..\User\node.h(106): warning:  #1295-D: Deprecated declaration tmCapQueryDisposeFunc - give arg types
+  void tmCapQueryDisposeFunc();
+..\..\User\main.c(28): warning:  #177-D: variable "canbuf"  was declared but never referenced
+  	uint8_t canbuf[4] = {0};
+..\..\User\main.c: 3 warnings, 0 errors
+compiling lockpwm.c...
+..\..\Drivers\BSP\LOCKPWM\lockpwm.c(4): warning:  #47-D: incompatible redefinition of macro "PERIOD_VALUE"  (declared at line 3)
+  #define  PERIOD_VALUE       (uint32_t)(28000 - 1)               /* ARR=Period Value  */
+..\..\Drivers\BSP\LOCKPWM\lockpwm.c: 1 warning, 0 errors
+compiling node.c...
+..\..\User\node.h(103): warning:  #1295-D: Deprecated declaration queryCapDisposeFunc - give arg types
+  void queryCapDisposeFunc();
+..\..\User\node.h(106): warning:  #1295-D: Deprecated declaration tmCapQueryDisposeFunc - give arg types
+  void tmCapQueryDisposeFunc();
+..\..\User\node.c(759): warning:  #550-D: variable "rs485ComAddr"  was set but never used
+  	uint8_t rs485ComAddr;                                           /*RS485的通信地址*/
+..\..\User\node.c(760): warning:  #550-D: variable "rs485Baud"  was set but never used
+      uint32_t rs485Baud;                                             /*RS485的通信波特率*/
+..\..\User\node.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=23052 RO-data=500 RW-data=132 ZI-data=2172  
+FromELF: creating hex file...
+"..\..\Output\STM32L431_SFCS.axf" - 0 Error(s), 8 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32L4xx_DFP.2.6.2.pack
+                Keil.STM32L4xx_DFP.2.6.2
+                STMicroelectronics STM32L4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  D:\programfile\keil_MDK\MDK5.36\Packs\Keil\STM32L4xx_DFP\2.6.2\Drivers\CMSIS\Device\ST\STM32L4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:08
+</pre>
+</body>
+</html>

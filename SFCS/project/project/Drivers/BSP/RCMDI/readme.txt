@@ -1,0 +1,22 @@
+本文件夹用于存放：
+RCM的8个输入端口RCMDI1~RCMDI8，和急停按钮
+
+PA0	 = RCMDI1
+PA1	 = RCMDI2
+PA2	 = RCMDI3
+PA3	 = RCMDI4
+PA4	 = RCMDI5
+PA5	 = RCMDI6
+PA6	 = RCMDI7
+PA7	 = RCMDI8
+PA10 = IN_BTN2 急停
+
+
+
+
+
+
+
+
+
+
